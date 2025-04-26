@@ -16,7 +16,7 @@ node_modules
 !env.template
 # opennext
 .open-next
-
+.*md
 # misc
 .DS_Store
 cursor-tips.md
