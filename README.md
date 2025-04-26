@@ -1,7 +1,7 @@
 # Cursor Full Stack Template
 ![Alpha Version](https://img.shields.io/badge/version-alpha-blue)
 
-This is a starter template for building full-stack applications with AWS, SST, and React. It provides a solid foundation with pre-configured infrastructure, authentication, and API integrations to help you get started quickly.
+This is an opinionated starter template for building full-stack applications with AWS, SST, and React. It provides a solid foundation with pre-configured infrastructure, authentication, and API integrations to help you get started quickly.
 
 You'll want to customize this template to fit your specific project needs. The modular structure allows you to easily modify components, add new features, and adapt the infrastructure as your application grows.
 
@@ -39,7 +39,7 @@ Key features:
    ```
 3. Load secrets into SST:
    ```bash
-   bun sst secrets load .env --stage <your-stage>
+   bun sst secret load .env --stage <your-stage>
    ```
    Replace `<your-stage>` with your desired stage (e.g., dev, staging, prod)
 
@@ -88,3 +88,6 @@ In the template, `web.ts`. These export the created resources. And are imported 
 For more guidance on how to define your infrastructure, head over to [sst docs](https://sst.dev/docs/).
 
 To see examples of different set ups, see [sst examples](https://sst.dev/docs/examples/).
+
+# Chat With This Repo
+You can chat with this repo [here](https://deepwiki.com/tfcbot/fs-template/1.1-project-architecture)

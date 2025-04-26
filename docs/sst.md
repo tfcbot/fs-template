@@ -103,10 +103,10 @@ Use the SST CLI to set secrets for different environments:
 
 ```bash
 # Set a secret for the development stage
-bun sst secrets set MY_SECRET_KEY my-secret-value --stage dev
+bun sst secret set MY_SECRET_KEY my-secret-value --stage dev
 
 # Set a secret for production
-bun sst secrets set MY_SECRET_KEY my-production-value --stage prod
+bun sst secret set MY_SECRET_KEY my-production-value --stage prod
 ```
 
 ### Loading Secrets from Environment Files
@@ -114,7 +114,7 @@ bun sst secrets set MY_SECRET_KEY my-production-value --stage prod
 > **Note**: You can load secrets from a local `.env` file into SST using the following command:
 >
 > ```bash
-> bun sst secrets load .env --stage <your-stage>
+> bun sst secret load .env --stage <your-stage>
 > ```
 >
 > This is useful for bulk-loading multiple secrets at once during setup or when migrating between environments.
