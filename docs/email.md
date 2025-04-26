@@ -31,7 +31,7 @@ import { emailService } from '@utils/email';
 // Simple usage
 const result = await emailService.sendEmail({
   to: 'recipient@example.com',
-  subject: 'Hello from Atos',
+  subject: 'Hello',
   html: '<p>This is a test email</p>',
 });
 
@@ -44,7 +44,7 @@ if (result.success) {
 // Advanced usage
 const result = await emailService.sendEmail({
   to: ['recipient1@example.com', 'recipient2@example.com'],
-  subject: 'Hello from Atos',
+  subject: 'Hello',
   html: '<p>This is a <strong>formatted</strong> email</p>',
   text: 'This is a formatted email', // Plain text fallback
   from: 'custom@agenticteamos.com',
