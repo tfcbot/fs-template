@@ -101,6 +101,8 @@ export const config = {
 };
 ```
 
+By default this is left blank and for you to implement. 
+
 ### 2. User Authentication
 
 The user signs in using Clerk's authentication UI. Clerk handles the authentication process and creates a session.
